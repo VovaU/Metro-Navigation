@@ -1,0 +1,169 @@
+﻿<Window x:Class="WpfApplication4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1161.2" Width="1468.2">
+    <Grid Name="grid" PreviewMouseLeftButtonDown="Grid_PreviewMouseLeftButtonDown"  Height="auto" Width="auto">
+        <ScrollViewer>
+            <Canvas Background="WhiteSmoke" Name="canvas" Margin="0" Height="1000" Width="auto" >
+
+                <TextBlock Canvas.Left="43" Canvas.Top="202" Height="21" Name="_0Red"  Width="107" Text="Академгородок" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <Ellipse Name="Green0" Canvas.Left="500" Canvas.Top="250" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Green1" Canvas.Left="500" Canvas.Top="290" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Green2" Canvas.Left="500" Canvas.Top="330" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Green3" Canvas.Left="500" Canvas.Top="400" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Green4" Canvas.Left="650" Canvas.Top="550" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Green5" Canvas.Left="750" Canvas.Top="650" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Green6" Canvas.Left="800" Canvas.Top="700" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Green7" Canvas.Left="850" Canvas.Top="750" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Green8" Canvas.Left="900" Canvas.Top="800" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Green9" Canvas.Left="1100" Canvas.Top="800" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Green10" Canvas.Left="1150" Canvas.Top="750" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Green11" Canvas.Left="1200" Canvas.Top="700" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Green12" Canvas.Left="1250" Canvas.Top="650" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Green13" Canvas.Left="1300" Canvas.Top="600" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Green14" Canvas.Left="1350" Canvas.Top="550" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Green15" Canvas.Left="1400" Canvas.Top="500" Width="30" Height="30" Fill="Green"  />
+                <Ellipse Name="Blue0" Canvas.Left="650" Canvas.Top="50" Width="30" Height="30" Fill="Blue"  />
+                <Ellipse Name="Blue1" Canvas.Left="650" Canvas.Top="100" Width="30" Height="30" Fill="Blue"  />
+                <Ellipse Name="Blue2" Canvas.Left="650" Canvas.Top="150" Width="30" Height="30" Fill="Blue"  />
+                <Ellipse Name="Blue3" Canvas.Left="650" Canvas.Top="200" Width="30" Height="30" Fill="Blue"  />
+                <Ellipse Name="Blue4" Canvas.Left="650" Canvas.Top="250" Width="30" Height="30" Fill="Blue"  />
+                <Ellipse Name="Blue5" Canvas.Left="650" Canvas.Top="300" Width="30" Height="30" Fill="Blue"  />
+                <Ellipse Name="Blue6" Canvas.Left="650" Canvas.Top="350" Width="30" Height="30" Fill="Blue"  />
+                <Ellipse Name="Blue7" Canvas.Left="650" Canvas.Top="400" Width="30" Height="30" Fill="Blue"  />
+                <Ellipse Name="Blue8" Canvas.Left="650" Canvas.Top="600" Width="30" Height="30" Fill="Blue"  />
+                <Ellipse Name="Blue9" Canvas.Left="650" Canvas.Top="700" Width="30" Height="30" Fill="Blue"  />
+                <Ellipse Name="Blue10" Canvas.Left="650" Canvas.Top="750" Width="30" Height="30" Fill="Blue"  />
+                <Ellipse Name="Blue11" Canvas.Left="650" Canvas.Top="800" Width="30" Height="30" Fill="Blue"  />
+                <Ellipse Name="Blue12" Canvas.Left="650" Canvas.Top="850" Width="30" Height="30" Fill="Blue"  />
+                <Ellipse Name="Blue13" Canvas.Left="650" Canvas.Top="900" Width="30" Height="30" Fill="Blue"  />
+                <Ellipse Name="Blue14" Canvas.Left="650" Canvas.Top="950" Width="30" Height="30" Fill="Blue"  />
+                <Ellipse Name="Red0" Canvas.Left="10" Canvas.Top="200" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red1" Canvas.Left="40" Canvas.Top="230" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red2" Canvas.Left="70" Canvas.Top="260" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red3" Canvas.Left="100" Canvas.Top="290" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red4" Canvas.Left="130" Canvas.Top="320" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red5" Canvas.Left="160" Canvas.Top="350" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red6" Canvas.Left="190" Canvas.Top="380" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red7" Canvas.Left="220" Canvas.Top="410" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red8" Canvas.Left="250" Canvas.Top="440" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red9" Canvas.Left="500" Canvas.Top="440" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red10" Canvas.Left="650" Canvas.Top="440" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red11" Canvas.Left="750" Canvas.Top="510" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red12" Canvas.Left="790" Canvas.Top="540" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red13" Canvas.Left="1000" Canvas.Top="540" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red14" Canvas.Left="1030" Canvas.Top="510" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red15" Canvas.Left="1060" Canvas.Top="480" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red16" Canvas.Left="1090" Canvas.Top="450" Width="30" Height="30" Fill="Red"  />
+                <Ellipse Name="Red17" Canvas.Left="1120" Canvas.Top="420" Width="30" Height="30" Fill="Red"  />
+                <Line Name="Green00" X1="515" Y1="278" X2="515" Y2="291" Stroke="Green" StrokeThickness="10" />
+                <Line Name="Green01" X1="515" Y1="335" X2="515" Y2="320" Stroke="Green" StrokeThickness="10" />
+                <Line Name="Green02" X1="515" Y1="359" X2="515" Y2="401" Stroke="Green" StrokeThickness="10" />
+                <Line Name="Green03" X1="655" Y1="557" X2="515" Y2="469" Stroke="Green" StrokeThickness="10" />
+                <Line Name="Green04" X1="755" Y1="655" X2="674" Y2="575" Stroke="Green" StrokeThickness="10" />
+                <Line Name="Green05" X1="805" Y1="705" X2="775" Y2="675" Stroke="Green" StrokeThickness="10" />
+                <Line Name="Green06" X1="855" Y1="755" X2="823" Y2="723" Stroke="Green" StrokeThickness="10" />
+                <Line Name="Green07" X1="905" Y1="805" X2="873" Y2="773" Stroke="Green" StrokeThickness="10" />
+                <Line Name="Green08" X1="1100" Y1="815" X2="930" Y2="815" Stroke="Green" StrokeThickness="10" />
+                <Line Name="Green09" X1="1156" Y1="776" X2="1125" Y2="805" Stroke="Green" StrokeThickness="10" />
+                <Line Name="Green010" X1="1210" Y1="723" X2="1175" Y2="755" Stroke="Green" StrokeThickness="10" />
+                <Line Name="Green011" X1="1256" Y1="675" X2="1225" Y2="707" Stroke="Green" StrokeThickness="10" />
+                <Line Name="Green012" X1="1310" Y1="625" X2="1275" Y2="657" Stroke="Green" StrokeThickness="10" />
+                <Line Name="Green013" X1="1360" Y1="575" X2="1325" Y2="605" Stroke="Green" StrokeThickness="10" />
+                <Line Name="Green014" X1="1410" Y1="522" X2="1375" Y2="555" Stroke="Green" StrokeThickness="10" />
+                <Ellipse Name="GreenRed" Canvas.Left="491" Canvas.Top="393" Width="49" Height="87" Stroke="Black" StrokeThickness="4" />
+                <Line Name="Blue00" X1="665" Y1="80" X2="665" Y2="102" Stroke="Blue" StrokeThickness="10" />
+                <Line Name="Blue01" X1="665" Y1="151" X2="665" Y2="130" Stroke="Blue" StrokeThickness="10" />
+                <Line Name="Blue02" X1="665" Y1="201" X2="665" Y2="180" Stroke="Blue" StrokeThickness="10" />
+                <Line Name="Blue03" X1="665" Y1="252" X2="665" Y2="230" Stroke="Blue" StrokeThickness="10" />
+                <Line Name="Blue04" X1="665" Y1="303" X2="665" Y2="280" Stroke="Blue" StrokeThickness="10" />
+                <Line Name="Blue05" X1="665" Y1="354" X2="665" Y2="330" Stroke="Blue" StrokeThickness="10" />
+                <Line Name="Blue06" X1="665" Y1="405" X2="665" Y2="380" Stroke="Blue" StrokeThickness="10" />
+                <Line Name="Blue07" X1="665" Y1="470" X2="665" Y2="550" Stroke="Blue" StrokeThickness="10" />
+                <Line Name="Blue08" X1="665" Y1="630" X2="665" Y2="700" Stroke="Blue" StrokeThickness="10" />
+                <Line Name="Blue09" X1="665" Y1="750" X2="665" Y2="729" Stroke="Blue" StrokeThickness="10" />
+                <Line Name="Blue010" X1="665" Y1="800" X2="665" Y2="780" Stroke="Blue" StrokeThickness="10" />
+                <Line Name="Blue011" X1="665" Y1="830" X2="665" Y2="850" Stroke="Blue" StrokeThickness="10" />
+                <Line Name="Blue012" X1="665" Y1="900" X2="665" Y2="880" Stroke="Blue" StrokeThickness="10" />
+                <Line Name="Blue013" X1="665" Y1="951" X2="665" Y2="930" Stroke="Blue" StrokeThickness="10" />
+                <Ellipse Name="BlueGreen" Canvas.Left="641" Canvas.Top="542" Width="49" Height="98" Stroke="Black" StrokeThickness="4" />
+                <Ellipse Name="BlueRed" Canvas.Left="641" Canvas.Top="391" Width="49" Height="87" Stroke="Black" StrokeThickness="4" />
+                <Line Name="Red00" X1="30" Y1="225" X2="45" Y2="240" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red01" X1="60" Y1="255" X2="75" Y2="270" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red02" X1="90" Y1="285" X2="105" Y2="300" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red03" X1="120" Y1="315" X2="135" Y2="330" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red04" X1="150" Y1="345" X2="165" Y2="360" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red05" X1="180" Y1="375" X2="195" Y2="390" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red06" X1="210" Y1="405" X2="225" Y2="420" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red07" X1="240" Y1="435" X2="255" Y2="450" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red08" X1="278" Y1="460" X2="500" Y2="460" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red09" X1="650" Y1="460" X2="530" Y2="460" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red010" X1="676" Y1="460" X2="755" Y2="520" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red011" X1="775" Y1="532" X2="795" Y2="550" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red012" X1="1002" Y1="560" X2="820" Y2="560" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red013" X1="1037" Y1="537" X2="1025" Y2="550" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red014" X1="1068" Y1="506" X2="1055" Y2="520" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red015" X1="1100" Y1="471" X2="1085" Y2="487" Stroke="Red" StrokeThickness="10" />
+                <Line Name="Red016" X1="1126" Y1="445" X2="1116" Y2="456" Stroke="Red" StrokeThickness="10" />
+                <TextBlock Canvas.Left="74" Canvas.Top="231" Height="21" x:Name="_1Red"  Width="95" Text="Житомирская" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="108" Canvas.Top="260" Height="21" x:Name="_2Red"  Width="72" Text="Святошин" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="136" Canvas.Top="288" Height="21" x:Name="_3Red"  Width="52" Text="Нивки" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="166" Canvas.Top="320" Height="21" x:Name="_4Red"  Width="101" Text="Берейстейская" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="198" Canvas.Top="348" Height="21" x:Name="_5Red"  Width="82" Text="Шулявская" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="229" Canvas.Top="378" Height="21" x:Name="_6Red"  Width="181" Text="Политехнический институт" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="255" Canvas.Top="408" Height="21" x:Name="_7Red"  Width="80" Text="Вокзальная" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="280" Canvas.Top="433" Height="21" x:Name="_8Red"  Width="85" Text="Университет" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="415" Canvas.Top="473" Height="21" x:Name="_9Red"  Width="85" Text="Театральная" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="696" Canvas.Top="446" Height="21" x:Name="_10Red"  Width="85" Text="Крещатик" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="780" Canvas.Top="502" Height="21" x:Name="_11Red"  Width="89" Text="Арсенальная" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="826" Canvas.Top="529" Height="21" x:Name="_12Red"  Width="54" Text="Днепр" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="930" Canvas.Top="529" Height="21" x:Name="_13Red"  Width="73" Text="Гидропарк" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="930" Canvas.Top="500" Height="21" x:Name="_14Red"  Width="100" Text="Левобережная" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="994" Canvas.Top="473" Height="21" x:Name="_15Red"  Width="61" Text="Дарница" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="1000" Canvas.Top="440" Height="21" x:Name="_16Red"  Width="96" Text="Черниговская" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="1074" Canvas.Top="410" Height="21" x:Name="_17Red"  Width="50" Text="Лесная" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="685" Canvas.Top="50" Height="21" x:Name="_0Blue"  Width="102" Text="Героев Днепра" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="685" Canvas.Top="100" Height="21" x:Name="_1Blue"  Width="65" Text="Минская" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="685" Canvas.Top="151" Height="21" x:Name="_2Blue"  Width="65" Text="Оболонь" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="685" Canvas.Top="200" Height="21" x:Name="_3Blue"  Width="65" Text="Петровка" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="685" Canvas.Top="250" Height="21" x:Name="_4Blue"  Width="124" Text="Тараса Шевченко" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="685" Canvas.Top="305" Height="21" x:Name="_5Blue"  Width="160" Text="Контрактовая площадь" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="685" Canvas.Top="354" Height="21" x:Name="_6Blue"  Width="136" Text="Почтовая площадь" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="690" Canvas.Top="402" Height="21" x:Name="_7Blue"  Width="168" Text="Площадь Независимости" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="482" Canvas.Top="609" Height="21" x:Name="_8Blue"  Width="159" Text="Площадь Льва Толстого" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="547" Canvas.Top="705" Height="21" x:Name="_9Blue"  Width="94" Text="Олимпийская" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="526" Canvas.Top="755" Height="21" x:Name="_10Blue"  Width="115" Text="Дворец Украина" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="567" Canvas.Top="805" Height="21" x:Name="_11Blue"  Width="74" Text="Лыбедская" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="561" Canvas.Top="855" Height="21" x:Name="_12Blue"  Width="80" Text="Демеевская" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="551" Canvas.Top="905" Height="21" x:Name="_13Blue"  Width="90" Text="Голосеевская" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="541" Canvas.Top="956" Height="21" x:Name="_14Blue"  Width="100" Text="Васильковская" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="535" Canvas.Top="250" Height="21" x:Name="_0Green"  Width="57" Text="Сырец" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="535" Canvas.Top="294" Height="21" x:Name="_1Green"  Width="90" Text="Дорогожичи" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="535" Canvas.Top="333" Height="21" x:Name="_2Green"  Width="100" Text="Лукьяновская" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="526" Canvas.Top="372" Height="21" x:Name="_3Green"  Width="111" Text="Золотые ворота" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="690" Canvas.Top="554" Height="21" x:Name="_4Green"  Width="111" Text="Дворец спорта" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="785" Canvas.Top="646" Height="21" x:Name="_5Green"  Width="73" Text="Кловская" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="836" Canvas.Top="694" Height="21" x:Name="_6Green"  Width="73" Text="Печерская" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="885" Canvas.Top="751" Height="21" x:Name="_7Green"  Width="118" Text="Дружбы Народов" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="930" Canvas.Top="788" Height="21" x:Name="_8Green"  Width="73" Text="Выдубичи" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="1042" Canvas.Top="788" Height="21" x:Name="_9Green"  Width="73" Text="Славутич" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="1086" Canvas.Top="743" Height="21" x:Name="_10Green"  Width="73" Text="Осокорки" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="1141" Canvas.Top="685" Height="21" x:Name="_11Green"  Width="59" Text="Позняки" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="1164" Canvas.Top="640" Height="21" x:Name="_12Green"  Width="86" Text="Харьковская" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="1235" Canvas.Top="594" Height="21" x:Name="_13Green"  Width="65" Text="Вырлица" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="1245" Canvas.Top="542" Height="21" x:Name="_14Green"  Width="101" Text="Бориспольская" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <TextBlock Canvas.Left="1299" Canvas.Top="495" Height="21" x:Name="_15Green"  Width="101" Text="Красный хутор" RenderTransformOrigin="0.625,5.842" FontFamily="Segoe UI Semibold" FontSize="14"/>
+                <Line Name="Gr1" X1="515" Y1="471" X2="515" Y2="430" Stroke="Green" StrokeThickness="10" Opacity="0.25" />
+                <Line Name="Bl1" X1="665" Y1="600" X2="665" Y2="550" Stroke="Blue" StrokeThickness="10" Opacity="0.25" />
+                <Line Name="Rd1" X1="665" Y1="470" X2="665" Y2="430" Stroke="Blue" StrokeThickness="10" Opacity="0.25" />
+
+            </Canvas>
+        </ScrollViewer>
+        
+    </Grid>
+
+</Window>
