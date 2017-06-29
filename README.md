@@ -1,5 +1,5 @@
 # Metro-Navigation
-This is test task **"Metro Navigation"** on WPF.
+This is application **"Metro Navigation"** on WPF.
 ***
 It is **Kiev Metro Navigation**.You can select 2 stations and get a visual animated route between them.
 ***
